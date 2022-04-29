@@ -3,8 +3,25 @@
     <head>
         <title>BIENE</title>
         <link rel="icon" type="image/x-icon" href="resources/images/favicon.ico">
+        <script type="text/javascript" src="resources/js/biene.js"></script>
+        <link rel="stylesheet" href="resources/css/styles.css">
     </head>
 
     <body>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#journal">My Journal</a>
+            <a href="#contact">Contact</a>
+            <a href="#chat">Chat</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">My Account
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Happiness Button</a>
+                    <a href="#">Log Out</a>
+                </div>
+            </div> 
+        </div>
     </body>
 </html>
